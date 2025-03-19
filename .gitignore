@@ -1,0 +1,69 @@
+# Ignore Visual Studio user-specific settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+nuget.lock.json
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.sln.ide
+
+# Ignore Rider and JetBrains IDE files
+.idea/
+*.iml
+
+# Ignore compiled files
+*.dll
+*.pdb
+*.exe
+*.app
+*.so
+*.dylib
+
+# Ignore publish directory
+wwwroot/dist/
+publish/
+out/
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment-specific settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+appsettings.json
+
+# Ignore Entity Framework Migrations history
+Migrations/
+
+# Ignore Blazor WebAssembly cache (if applicable)
+#wwwroot/_framework/
+
+
+# Ignore dotnet tooling files
+*.dotnet_tools/
+**/obj/**/*.csproj.FileListAbsolute.txt
+
+# Ignore debug files
+*.tlog
+*.log.dmp
+*.vspscc
